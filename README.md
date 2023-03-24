@@ -29,3 +29,11 @@ tsc
 tsc -w
 tsc --watch
 ```
+
+
+```
+// Se debe poner el tipo de datos en los parametros de una función
+function sayHello(msg:string) {
+    console.log(msg);
+}
+```
